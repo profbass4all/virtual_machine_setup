@@ -1,0 +1,1 @@
+az deployment group create   --resource-group 3mtt_group   --template-file 3mtt_ubuntu_vm_template.json   --parameters adminUsername=youradmin                adminPassword=YourPassword123!                vmSize=Standard_DC1s_v3
